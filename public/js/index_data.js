@@ -18,6 +18,7 @@
             this.listParent = document.querySelector('.searchList')
         },
         getInfo: function (page) {
+            this.ajaxFlag = false
             this.$.config.page = page
             this.loader.style.transform = 'scaleY(1)'
             this.$.applyAjax('post', this.$.url, this.$.config, function (data) {   //新闻查询
