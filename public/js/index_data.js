@@ -8,7 +8,7 @@
         contentParent: document.querySelector('.newList'),  //内容父元素
         loader: document.querySelector('.loading'),  //加载动画元素
         innerParent: document.querySelector('.newList'),    //所有新闻内容父元素
-        imgUrl: '../img/news.jpg',
+        imgUrl: '/news/public/img/news.jpg',
         page: 1,
         enter: false,
         enterChild: false,
